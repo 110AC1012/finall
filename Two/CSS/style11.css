@@ -1,0 +1,162 @@
+.BackGround {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    background-color: #5A00FF;
+}
+
+.BackGround .PicArea {
+    width: 60%;
+    height: 96%;
+    background-image: url(../Pic/BocchiTheStarburst.jpg);
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.BackGround .PicArea img {
+    width: 300px;
+    height: 300px;
+    border-radius: 999em;
+    border-style: solid;
+    border-width: 10px;
+    border-color: black;
+    background-color: black;
+}
+
+.BackGround .AccountArea {
+    width: 30%;
+    height: 96%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.BackGround .AccountArea p {
+    font-size: 30px;
+    font-weight: bolder;
+    color: black;
+}
+
+.BackGround .AccountArea .Line {
+    width: 60%;
+    height: 2px;
+    background-color: black;
+    margin-bottom: 40px;
+}
+
+.BackGround .AccountArea input {
+    width: 90%;
+    height: 40px;
+    font-size: 22px;
+    border-radius: 999px;
+    padding-left: 20px;
+    margin-bottom: 40px;
+}
+
+.BackGround .AccountArea button {
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background-image: url("../Pic/linkstart.jpg");
+}
+
+.BackGround .AccountArea .AccountFunc {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.BackGround .AccountArea .AccountFunc .ForgetPassword {
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.BackGround .AccountArea .AccountFunc .Register {
+    margin-bottom: 20px;
+}
+
+.BackGround .AccountArea .Bigger {
+    width: 75%;
+    margin-bottom: 20px;
+}
+
+.BackGround .AccountArea .PicArray {
+    width: 200px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: crimson;
+}
+
+.BackGround .AccountArea img {
+    width: 24px;
+    height: 24px;
+}
+
+@media (max-width:1024px) {
+    .BackGround .PicArea img {
+        width: 200px;
+        height: 200px;
+        border-width: 8px;
+    }
+    .BackGround .AccountArea p {
+        font-size: 1.2em;
+    }
+    .BackGround .AccountArea input {
+        width: 90%;
+        height: 30px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width:768px) {
+    .BackGround .PicArea img {
+        width: 150px;
+        height: 150px;
+        border-width: 6px;
+    }
+    .BackGround .AccountArea input {
+        width: 80%;
+        height: 25px;
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width:320px) {
+    .BackGround {
+        flex-direction: column;
+    }
+    .BackGround .PicArea {
+        width: 90%;
+    }
+    .BackGround .PicArea img {
+        width: 100px;
+        height: 100px;
+        border-width: 4px;
+    }
+    .BackGround .AccountArea {
+        width: 90%;
+    }
+    .BackGround .AccountArea .Line {
+        margin-bottom: 20px;
+    }
+    .BackGround .AccountArea input {
+        width: 70%;
+        height: 25px;
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+}

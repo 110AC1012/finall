@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.BackGround {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 10;
+    /*width: 1200px;
+    height: 1000px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #5A00FF;*/
+}
+
+.BackGround .Head {
+    width: 98%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: aqua;
+    padding: 20px 100px;
+}
+
+.BackGround .Head p {
+    padding-top: 20px;
+    font-weight: 600;
+    color: black;
+    font-size: larger;
+}
+
+.BackGround .Head .AccountArea {
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.BackGround .Head .AccountArea .AccountPart {
+    display: flex;
+    flex-direction: row;
+}
+
+.BackGround .Head .AccountArea .AccountPart img {
+    width: 50px;
+    height: 50px;
+    border-radius: 999em;
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+    background-color: black;
+}
+
+.BackGround .Head .AccountArea .AccountPart p {
+    font-size: 12px;
+    display: inline;
+}
+
+.BackGround .Head .AccountArea p {
+    color: black;
+}
+
+.BackGround .Head .AccountArea button {
+    width: 120px;
+    height: 50px;
+    border-radius: 999px;
+    margin-left: 500px;
+}
+
+.BackGround .Body {
+    width: 96%;
+    padding: 20px 20px 20px;
+    background-color: brown;
+}
+
+.BackGround .Body .PicArea {
+    background-color: blanchedalmond;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.BackGround .Body .PicArea img {
+    width: 33%;
+}
+
+@media (max-width:1024px) {}
+
+@media (max-width:768px) {
+    .BackGround .Head .AccountArea button {
+        width: 100px;
+        height: 40px;
+        border-radius: 999px;
+        font-size: 0.4em;
+    }
+    .BackGround .Body .PicArea img {
+        width: 100%;
+    }
+    .BackGround .Body .PicArea {
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+    .BackGround .Head .AccountArea button {
+        margin-left: 100px;
+    }
+}
+
+@media (max-width:320px) {
+    .BackGround .Head {
+        width: 98%;
+        height: 150px;
+    }
+    .BackGround .Head p {
+        padding-top: 10px;
+        font-size: 0.6em;
+    }
+    .BackGround .Head .AccountArea button {
+        margin-left: 0px;
+    }
+    .BackGround .Head .AccountArea {
+        display: flex;
+        padding-bottom: 0px;
+    }
+}

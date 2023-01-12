@@ -1,0 +1,113 @@
+body {
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+}
+
+.BackGround {
+    width: 96%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    background-color: #5A00FF;
+}
+
+.PicArea {
+    width: 60%;
+    height: 96%;
+    background-image: url(../Pic/BocchiTheStarburst.jpg);
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.Circle {
+    width: 300px;
+    height: 300px;
+    border-radius: 999em;
+    border-style: solid;
+    border-width: 10px;
+    border-color: black;
+    background-color: black;
+}
+
+.AccountArea {
+    width: 30%;
+    height: 96%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.LoginTitle {
+    font-size: 30px;
+    font-weight: bolder;
+    color: black;
+}
+
+.Line {
+    width: 200px;
+    height: 2px;
+    background-color: black;
+    margin-bottom: 40px;
+}
+
+.Bigger {
+    width: 75%;
+    margin-bottom: 20px;
+}
+
+.RadInput {
+    width: 300px;
+    height: 40px;
+    font-size: 26px;
+    border-radius: 999px;
+    padding-left: 20px;
+    margin-bottom: 40px;
+}
+
+.LinkStart {
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background-image: url("../Pic/linkstart.jpg");
+}
+
+.AccountFunc {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.ForgetPassword {
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.Register {
+    margin-bottom: 20px;
+}
+
+.PicArray {
+    width: 200px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: crimson;
+}
+
+.Pic24 {
+    width: 24px;
+    height: 24px;
+}

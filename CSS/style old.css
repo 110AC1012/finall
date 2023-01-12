@@ -1,0 +1,268 @@
+body {
+    display: flex;
+    justify-content: center;
+    max-width: auto;
+}
+
+hr {
+    height: 1em;
+    width: 1px;
+    color: #000;
+    background-color: #000;
+    border-width: 0;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.col {
+    height: 1px;
+    width: 70px;
+    color: #000;
+    background-color: #000;
+    border-width: 0;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+dt {
+    margin-bottom: 10px;
+}
+
+.BackGround {
+    max-width: 96%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #5A00FF;
+}
+
+.Head {
+    max-width: 90%;
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FF8400;
+}
+
+.BodyArea {
+    max-width: 90%;
+    display: flex;
+    flex-direction: row;
+    background-color: #188118;
+}
+
+.ToolArea {
+    max-width: 24%;
+    display: flex;
+    flex-direction: row;
+    background-color: #f5f500;
+}
+
+.LeftTool {
+    max-width: 47%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(166, 0, 255);
+    margin-left: 2%;
+}
+
+.RightTool {
+    max-width: 47%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(166, 0, 255);
+    margin-left: 2%;
+}
+
+.PicNewsArea {
+    max-width: 40%;
+    background-color: #f5f500;
+}
+
+.ChooseArea {
+    height: 50px;
+    background-color: #888;
+}
+
+.ChooseBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #880;
+}
+
+.ChooseBtn {
+    max-width: 16%;
+    height: 40px;
+    background-color: aqua;
+}
+
+.PicAndUrl {
+    display: flex;
+    align-items: center;
+    background-color: blue;
+    margin: 2%;
+}
+
+.Pic {
+    max-width: 60%;
+    background-color: #f5f500;
+    margin: 2%;
+}
+
+.StarBurst {
+    max-width: 96%;
+    margin: 2%;
+}
+
+.Bonk {
+    max-width: 96%;
+    margin: 2%;
+}
+
+.Url {
+    max-width: 32%;
+    display: flex;
+    flex-direction: column;
+    background-color: #f5f500;
+    margin: 2%;
+}
+
+.GoogleTV {
+    max-width: 28%;
+    height: 400px;
+    background: #f5f500;
+}
+
+.FuncBar {
+    display: flex;
+    flex-direction: row;
+}
+
+.FuncArray {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.SearchArray {
+    display: flex;
+    align-items: center;
+}
+
+.SearchBar {
+    width: 500px;
+    height: 45px;
+}
+
+.SearchBtn {
+    width: 45px;
+    height: 45px;
+}
+
+.AccountArray {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.BlackWd {
+    color: black;
+}
+
+.fontsize10px {
+    font-size: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.LoginBtn {
+    width: 60px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    border-radius: 4px;
+}
+
+.Hotspot {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.PicSize40px {
+    width: 40px;
+    height: 40px;
+}
+
+.Bell {
+    width: 28px;
+    height: 28px;
+    margin-left: 10px;
+}
+
+.LineHeight70 {
+    line-height: 70%;
+}
+
+.jus {
+    display: flex;
+    justify-content: center;
+}
+
+.ali {
+    display: flex;
+    align-items: center;
+}
+
+.SpaBet {
+    display: flex;
+    justify-content: space-between;
+}
+
+.FlexRow {
+    display: flex;
+    flex-direction: row;
+}
+
+.LeftRight5 {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.LeftRight25 {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.UpDown5 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.Font-Size14 {
+    font-size: 14px;
+}
+
+.Flex-Around {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Body {
+    width: 1em;
+    height: 600px;
+    background-color: #888;
+}
+
+.Video {
+    max-width: 96%;
+}

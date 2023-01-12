@@ -1,0 +1,467 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 150px;
+    z-index: 10;
+    /*background: yellowgreen;*/
+}
+
+header a img {
+    display: block;
+    transform: scale(2.5, 2.5);
+}
+
+header a img:hover {
+    display: block;
+    transform: scale(2.7, 2.7);
+}
+
+header .SearchBox {
+    margin: 0 60px;
+    padding-top: 20px;
+}
+
+header .SearchBox .Search {
+    position: relative;
+    width: 100%;
+    height: 50px;
+}
+
+header .SearchBox .Search input {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 1.1em;
+    counter-reset: #fff;
+    outline: none;
+    border: 1px solid #333;
+    border-radius: 999px;
+    padding: 0 50px 0 30px;
+}
+
+header .SearchBox .Search .fa-magnifying-glass {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px;
+}
+
+header .SearchBox .Navigation {
+    line-height: 1.1em;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 15px 0;
+}
+
+header .SearchBox .Navigation li {
+    list-style: none;
+    margin: 0 10px;
+}
+
+header .SearchBox .Navigation li a:hover {
+    text-decoration: none;
+    transform: scale(1.2, 1.2);
+}
+
+header .Account {
+    transform: scale(1.4, 1.4);
+}
+
+header .Account .Weather {
+    border: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header .Account .Info {
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+}
+
+header .Account .Info i {
+    margin-right: 10px;
+}
+
+header .Account .Info button {
+    width: 50px;
+    height: 20px;
+    outline: none;
+    border: 1px solid #333;
+    border-radius: 999px;
+}
+
+.banner {
+    /*background: yellow;*/
+    padding: 200px 100px 100px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.banner .Tool {
+    /*background: steelblue;*/
+    width: 20%;
+    display: flex;
+}
+
+.banner .Tool .Left {
+    width: 47%;
+    margin-left: 2%;
+    display: flex;
+    flex-direction: column;
+}
+
+.banner .Tool .Left .None {
+    margin-bottom: 10px;
+}
+
+.banner .Tool .Left .None li {
+    list-style: none;
+}
+
+.banner .Tool .Left .None li a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #E91E63;
+}
+
+.banner .Tool .Left .None li a:hover {
+    font-size: 1.05em;
+    color: #8BC34A;
+}
+
+.banner .Tool .Left .None li a:visited {
+    color: #7C4DFF;
+}
+
+.banner .Tool .Right {
+    width: 47%;
+    margin-left: 2%;
+    display: flex;
+    flex-direction: column;
+}
+
+.banner .Tool .Right .None {
+    margin-bottom: 10px;
+}
+
+.banner .Tool .Right .None li {
+    list-style: none;
+}
+
+.banner .Tool .Right .None li a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #E91E63;
+}
+
+.banner .Tool .Right .None li a:hover {
+    font-size: 1.05em;
+    color: #8BC34A;
+}
+
+.banner .News {
+    /*background: wheat;*/
+    width: 45%;
+}
+
+.banner .News .NewsBar .None {
+    background: #546E7A;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.banner .News .NewsBar .None li {
+    width: 16.66%;
+    padding: 10px 0 10px 0;
+}
+
+.banner .News .NewsBar .None li:hover {
+    background: #fff;
+}
+
+.banner .News .NewsBar .None li a {
+    line-height: 1.4em;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    color: #FFEB3B;
+}
+
+.banner .News .NewsBar .None li a:hover {
+    font-size: 1.05em;
+}
+
+.banner .News .NewsArtical {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner .News .NewsArtical .NewsPic {
+    /*background: #333;*/
+    padding: 2%;
+    width: 47%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.banner .News .NewsArtical .NewsPic img {
+    width: 100%;
+}
+
+.banner .News .NewsArtical ul {
+    width: 47%;
+    height: 100%;
+    /*background: #fff;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.banner .News .NewsArtical ul li {
+    list-style: none;
+}
+
+.banner .News .NewsArtical ul li a {
+    color: #E040FB;
+}
+
+.banner .TV {
+    /*background: violet;*/
+    width: 30%;
+}
+
+.banner .TV video {
+    width: 100%;
+}
+
+@media (max-width:1024px) {
+    header {
+        padding: 20px 100px;
+    }
+    header a img {
+        transform: scale(1.5, 1.5);
+    }
+    header a img:hover {
+        transform: scale(1.7, 1.7);
+    }
+    header .SearchBox .Navigation p {
+        font-size: 0.8em;
+    }
+    header .SearchBox .Navigation li a {
+        font-size: 0.8em;
+    }
+    header .Account {
+        transform: scale(1.2, 1.2);
+    }
+    header .Account .Info {
+        margin-top: 5px;
+    }
+    header .Account .Info i {
+        margin-right: 5px;
+    }
+    header .Account .Info button {
+        transform: scale(0.7, 0.7);
+    }
+    .banner {
+        padding: 180px 50px 50px;
+    }
+    .banner .Tool .Left .None li a {
+        font-size: 0.4em;
+    }
+    .banner .Tool .Left .None li a:hover {
+        font-size: 0.8em;
+    }
+    .banner .Tool .Right .None li a {
+        font-size: 0.4em;
+    }
+    .banner .Tool .Right .None li a:hover {
+        font-size: 0.8em;
+    }
+    .banner .News .NewsBar .None li {
+        padding: 8px 0 8px 0;
+    }
+    .banner .News .NewsBar .None li a {
+        font-size: 0.7em;
+    }
+    .banner .News .NewsBar .None li a:hover {
+        font-size: 0.75em;
+    }
+    .banner .News .NewsArtical .NewsPic {
+        height: 80%;
+    }
+    .banner .News .NewsArtical ul {
+        height: 80%;
+    }
+    .banner .News .NewsArtical ul li a {
+        font-size: 0.6em;
+    }
+    .banner .News .NewsArtical ul li p {
+        font-size: 0.6em;
+    }
+}
+
+@media (max-width:768px) {
+    header {
+        padding: 10px 20px;
+        justify-content: space-around;
+    }
+    header a img {
+        transform: scale(0.7, 0.7);
+    }
+    header a img:hover {
+        transform: scale(1, 1);
+    }
+    header .SearchBox {
+        margin: 0 20px;
+        padding-top: 5px;
+    }
+    header .SearchBox .Search {
+        width: 100%;
+        height: 30px;
+    }
+    header .SearchBox .Search input {
+        font-size: 0.5em;
+        padding: 0 30px 0 10px;
+    }
+    header .SearchBox .Search .fa-magnifying-glass {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 10px;
+    }
+    header .SearchBox .Navigation {
+        height: 0;
+        margin: 0px;
+    }
+    header .SearchBox .Navigation p {
+        font-size: 0px;
+    }
+    header .SearchBox .Navigation li {
+        margin: 0;
+    }
+    header .SearchBox .Navigation li a {
+        font-size: 0px;
+    }
+    header .Account {
+        transform: scale(1, 1);
+    }
+    .banner {
+        padding: 100px 50px 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .banner .Tool {
+        width: 100%;
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .banner .Tool .Left {
+        width: 80%;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .banner .Tool .Right {
+        width: 80%;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .banner .News {
+        width: 95%;
+        margin-top: 20px;
+    }
+    .banner .News .NewsBar .None li {
+        padding: 10px 0 10px 0;
+    }
+    .banner .News .NewsBar .None li a {
+        font-size: 1.1em;
+    }
+    .banner .News .NewsBar .None li a:hover {
+        font-size: 1.15em;
+    }
+    .banner .News .NewsArtical {
+        margin-top: 10px;
+        height: 60vh;
+    }
+    .banner .News .NewsArtical .NewsPic {
+        height: 100%;
+    }
+    .banner .News .NewsArtical ul {
+        height: 100%;
+    }
+    .banner .News .NewsArtical ul li a {
+        font-size: 0.8em;
+    }
+    .banner .News .NewsArtical ul li p {
+        font-size: 0.8em;
+    }
+    .banner .TV {
+        margin-top: 20px;
+        width: 98%;
+    }
+}
+
+@media (max-width:320px) {
+    header {
+        flex-wrap: wrap;
+    }
+    header .Account {
+        margin: 10px;
+        display: flex;
+        justify-content: space-around;
+    }
+    header .Account .Info {
+        margin-left: 20px;
+    }
+    .banner {
+        padding: 100px 10px 10px;
+    }
+    .banner .Tool {
+        height: 0;
+    }
+    .banner .Tool .Left .None li a {
+        font-size: 0;
+    }
+    .banner .Tool .Right .None li a {
+        font-size: 0;
+    }
+    .banner .News .NewsBar .None li {
+        padding: 8px 0 8px 0;
+    }
+    .banner .News .NewsBar .None li a {
+        font-size: 0.9em;
+    }
+    .banner .News .NewsBar .None li a:hover {
+        font-size: 0.95em;
+    }
+    .banner .News .NewsArtical ul li a {
+        font-size: 0.7em;
+    }
+    .banner .News .NewsArtical ul li p {
+        font-size: 0.7em;
+    }
+}
